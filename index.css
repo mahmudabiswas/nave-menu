@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list>ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.list>ul>li{
+    list-style: none;
+    text-align: right;
+    padding: 15px;
+    transition: all ease .5s;
+}
+.list>ul>li:hover{
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+
+}
